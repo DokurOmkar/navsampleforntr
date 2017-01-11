@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    android:fillViewport="false">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_margin="4dp"
+        android:elevation="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/favoriteItemThumbnail"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="3dp"
+                android:src="@drawable/placeholder" />
+
+            <TextView
+                android:id="@+id/favoriteItemName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/favoriteItemThumbnail"
+                android:maxLines="3"
+                android:padding="8dp"
+                android:text="item Name"
+                android:textColor="#222"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/favoriteItemName"
+                android:layout_alignBottom="@+id/favoriteItemThumbnail"
+                android:layout_alignBaseline="@+id/favoriteItemThumbnail"
+                android:layout_toRightOf="@+id/favoriteItemThumbnail"
+                android:id="@+id/favoriteItemPrices"
+                android:padding="3dp"
+                android:text="$21/$32/$96/WE/$288"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@android:drawable/btn_star"
+                android:id="@+id/favoriteItemCb"
+                android:layout_alignTop="@+id/favoriteItemPrices"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</ScrollView>

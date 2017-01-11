@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">NTR</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">You need to Sign-in first</string>
+    <string name="reserve_equipment">Reserve Equipment</string>
+    <string name="sign_in">Sign In</string>
+    <string name="network_not_available_message">Please check internet connection</string>
+    <string name="failure_to_load">Failed to load</string>
+    <string name="dialog_title">Message</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string-array name="tool_category">
+        <item>Accessories</item>
+        <item>Air Powered Equipment</item>
+        <item>Automotive</item>
+        <item>Compact Equipment</item>
+        <item>Concrete and Asphalt Equip</item>
+        <item>Ditching Equipment</item>
+        <item>Drills, Hammers and Guns</item>
+        <item>Floor Maint/Sanding</item>
+        <item>Generators</item>
+        <item>Heaters and Fans</item>
+        <item>Household</item>
+        <item>Jacks and Moving Equipment</item>
+        <item>Ladders</item>
+        <item>Lawn and Garden</item>
+        <item>Lift Equipment</item>
+        <item>Lights</item>
+        <item>Loaders and Backhoes</item>
+        <item>Other rental</item>
+        <item>Plumbing Equipment</item>
+        <item>Pressure Washers</item>
+        <item>Pumps and Hoes</item>
+        <item>Saws</item>
+        <item>Scaffold</item>
+        <item>Trailers</item>
+        <item>Welders</item>
+    </string-array>
+    <string-array name="tool_category_count">
+        <item>19</item>
+        <item>21</item>
+        <item>9</item>
+        <item>9</item>
+        <item>47</item>
+        <item>4</item>
+        <item>35</item>
+        <item>31</item>
+        <item>10</item>
+        <item>21</item>
+        <item>35</item>
+        <item>47</item>
+        <item>23</item>
+        <item>60</item>
+        <item>16</item>
+        <item>4</item>
+        <item>34</item>
+        <item>26</item>
+        <item>33</item>
+        <item>19</item>
+        <item>19</item>
+        <item>30</item>
+        <item>24</item>
+        <item>9</item>
+        <item>11</item>
+    </string-array>
+
+    <string name="content_authority">com.deftlogic.ntr</string>
+    <string name="sync_account_type">ntr.deftlogic.com</string>
+</resources>

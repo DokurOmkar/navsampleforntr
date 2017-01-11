@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ntr_logo"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ntr_logo"
+       />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="16dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/reserve_equipment"
+        android:layout_below="@+id/ntr_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:id="@+id/reserveEquipmentButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:id="@+id/signInButtonHome"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/reserveEquipmentButton"
+        android:layout_alignEnd="@+id/reserveEquipmentButton"
+        android:layout_alignLeft="@+id/reserveEquipmentButton"
+        android:layout_alignStart="@+id/reserveEquipmentButton" />
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:id="@+id/backgroundImage"-->
+        <!--android:src="@drawable/tool"-->
+        <!--android:layout_marginLeft="109dp"-->
+        <!--android:layout_marginStart="109dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignLeft="@+id/button"-->
+        <!--android:layout_alignStart="@+id/button" />-->
+
+
+
+</RelativeLayout>
+
